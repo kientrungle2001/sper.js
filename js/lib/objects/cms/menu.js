@@ -1,0 +1,3 @@
+PzkCmsMenu = PzkObj.pzkExt({
+	
+});

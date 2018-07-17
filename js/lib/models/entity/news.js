@@ -1,0 +1,3 @@
+PzkModelsEntityNews = PzkModelEntity.pzkExt({
+	
+});

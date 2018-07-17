@@ -1,0 +1,26 @@
+{
+	"test1sn.vn": {
+		"app": 			"nobel_test",
+		"softwareId": 	1,
+		"siteId": 		2,
+		"language":		true,
+		"theme": 		"songngu3"
+	},
+	"test1.vn": {
+		"app": 			"nobel_cms",
+		"softwareId": 	1,
+		"siteId": 		2,
+		"language":		true,
+		"theme": 		"cms"
+	},
+	"sper.vn": {
+		"app": 			"nobel_cms",
+		"softwareId": 	1,
+		"siteId": 		1,
+		"language":		false,
+		"theme": 		"sper"
+	},
+	"s1.nextnobels.com": "test1sn.vn",
+	"fulllooksongngu.com": "test1sn.vn",
+	"sper.quangcaosangtao.vn": "sper.vn"
+}

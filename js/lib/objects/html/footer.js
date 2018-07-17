@@ -1,0 +1,3 @@
+PzkHtmlFooter = PzkObj.pzkExt({
+	
+});

@@ -1,0 +1,112 @@
+<empty>
+	<obj layout="/themejs/sper/layouts/style.html" />
+
+	<container.fluid class="bg-black" style="padding: 10px;">
+		<row>
+			<col md="3">
+				<bg.primary><img src="http://via.placeholder.com/450x100" class="img-responsive" /></bg.primary>
+			</col>
+			<col md="3">
+				<bg.primary><img src="http://via.placeholder.com/450x100" class="img-responsive" /></bg.primary>
+			</col>
+			<col md="3">
+				<bg.primary><img src="http://via.placeholder.com/450x100" class="img-responsive" /></bg.primary>
+			</col>
+			<col md="3">
+				<bg.primary><img src="http://via.placeholder.com/450x100" class="img-responsive" /></bg.primary>
+			</col>
+		</row>
+	</container.fluid>
+	
+	<navbar context="default" class="bg-white mg-bottom-0">
+		<container>
+			<navbar.header>
+				<navbar.toggle href="#toggle-menu" />
+				<navbar.brand>Sper</navbar.brand>
+			</navbar.header>
+			<navbar.collapse id="toggle-menu">
+				<navbar.nav>
+					<navbar.nav.item class="active">
+						<div class="navbar-input-wrapper">
+							<btn.group>
+								<dropdown.toggle class="btn btn-default"  style="width: 120px !important;"><span class="pull-left">Công ty</span> <span class="pull-right"><caret /></span></dropdown.toggle>
+								<dropdown.menu style="width: 120px !important;">
+									<dropdown.menu.item style="width: 120px !important;">
+										<a href="#">Công ty</a>
+									</dropdown.menu.item>
+									<dropdown.menu.item style="width: 120px !important;">
+										<a href="#">Cá nhân</a>
+									</dropdown.menu.item>
+								</dropdown.menu>
+							</btn.group>
+						</div>
+					</navbar.nav.item>
+					<navbar.nav.item>
+					<div class="navbar-input-wrapper">
+						  
+						  <input.group class="relative wsearch">
+							  <a href="#" class="absolute on-top" style="right: 50px; top: 7px;"> <fa symbol="filter" size="1x" /> Bộ lọc</a>
+							  <input type="text" class="form-control" placeholder="Username" aria-describedby="basic-addon1" />
+							  <input.group.btn>
+								<btn.default><icon.search /></btn.default>
+							  </input.group.btn>
+							</input.group>
+							
+					</div></navbar.nav.item>
+					<navbar.nav.item>
+						<div class="navbar-input-wrapper">
+							<btn.group>
+								<dropdown.toggle class="btn btn-default"  style="width: 160px;"><span class="pull-left">TP Hồ Chí Minh</span> <span class="pull-right"><caret /></span></dropdown.toggle>
+								<dropdown.menu style="width: 160px;">
+									<dropdown.menu.item>
+										<a href="#">TP Hồ Chí Minh</a>
+									</dropdown.menu.item>
+									<dropdown.menu.item>
+										<a href="#">Hà Nội</a>
+									</dropdown.menu.item>
+								</dropdown.menu>
+							</btn.group>
+						</div>
+					</navbar.nav.item>
+					<navbar.nav.item>
+						<div class="navbar-input-wrapper">
+							<btn.default tag="a" href="#"> <icon symbol="phone" /> App</btn.default>
+						</div>
+					</navbar.nav.item>
+					<navbar.nav.item>
+						<a href="#">
+							Đăng nhập
+						</a>
+					</navbar.nav.item>
+					<navbar.nav.item class="dropdown">
+						<dropdown.toggle><icon symbol="bell" style="font-size: 18px;" /></dropdown.toggle>
+						<dropdown.menu>
+							<dropdown.menu.item><a href="#">Item 1</a></dropdown.menu.item>
+							<dropdown.menu.item><a href="#">Item 2</a></dropdown.menu.item>
+						</dropdown.menu>
+					</navbar.nav.item>
+					<navbar.nav.item>
+						<a href="#" class="relative">
+							<icon symbol="shopping-cart" style="font-size: 18px;" />
+							<badge class="circle bg-red absolute" style="top: 7px;right:7px; font-size: 10px;">1</badge>
+						</a>
+					</navbar.nav.item>
+					<navbar.nav.item>
+						<a href="#">
+							<icon symbol="plus-sign" style="font-size: 18px;" />
+						</a>
+					</navbar.nav.item>
+					<navbar.nav.item class="dropdown">
+						<dropdown.toggle><icon symbol="minus-sign" style="font-size: 18px;" /><caret /></dropdown.toggle>
+						<dropdown.menu>
+							<dropdown.menu.item><a href="#">Item 3</a></dropdown.menu.item>
+							<dropdown.menu.item><a href="#">Item 4</a></dropdown.menu.item>
+						</dropdown.menu>
+					</navbar.nav.item>
+				</navbar.nav>
+			</navbar.collapse>
+		</container>
+	</navbar>
+	<empty id="mainContent"></empty>
+	<include src="/footer.html" />
+</empty>
